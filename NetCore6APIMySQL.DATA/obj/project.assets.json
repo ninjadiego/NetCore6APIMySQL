@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "NetCore6APIMySQL.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/NetCore6APIMySQL.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NetCore6APIMySQL.Model.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "NetCore6APIMySQL.Model/1.0.0": {
+      "type": "project",
+      "path": "../NetCore6APIMySQL.MODE/NetCore6APIMySQL.Model.csproj",
+      "msbuildProject": "../NetCore6APIMySQL.MODE/NetCore6APIMySQL.Model.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "NetCore6APIMySQL.Model >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\diego\\.nuget\\packages\\": {}
@@ -13,9 +32,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\diego\\source\\repos\\NetCore6APIMySQL\\NetCore6APIMySQL.DATA\\NetCore6APIMySQL.DATA.csproj",
-      "projectName": "NetCore6APIMySQL.DATA",
-      "projectPath": "C:\\Users\\diego\\source\\repos\\NetCore6APIMySQL\\NetCore6APIMySQL.DATA\\NetCore6APIMySQL.DATA.csproj",
+      "projectUniqueName": "C:\\Users\\diego\\source\\repos\\NetCore6APIMySQL\\NetCore6APIMySQL.DATA\\NetCore6APIMySQL.Data.csproj",
+      "projectName": "NetCore6APIMySQL.Data",
+      "projectPath": "C:\\Users\\diego\\source\\repos\\NetCore6APIMySQL\\NetCore6APIMySQL.DATA\\NetCore6APIMySQL.Data.csproj",
       "packagesPath": "C:\\Users\\diego\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\diego\\source\\repos\\NetCore6APIMySQL\\NetCore6APIMySQL.DATA\\obj\\",
       "projectStyle": "PackageReference",
@@ -33,7 +52,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\diego\\source\\repos\\NetCore6APIMySQL\\NetCore6APIMySQL.MODE\\NetCore6APIMySQL.Model.csproj": {
+              "projectPath": "C:\\Users\\diego\\source\\repos\\NetCore6APIMySQL\\NetCore6APIMySQL.MODE\\NetCore6APIMySQL.Model.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

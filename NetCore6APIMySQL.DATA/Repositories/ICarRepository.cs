@@ -8,9 +8,14 @@ using System.Threading.Tasks;
 
 namespace NetCore6APIMySQL.Data.Repositories
 {
-    public interface ICarRepository
+    public interface CarRepository : ICarRepository
+
     {
         Task<IEnumerable<Car>> GetAllCars();
+        Task<Car> GetDetails(int id);
+        Task<bool> InserCar(Car car);
+        Task<bool> UpdateCar(Car car);
+        Task<bool> DeleteCar(Car car);
 
     }
 }

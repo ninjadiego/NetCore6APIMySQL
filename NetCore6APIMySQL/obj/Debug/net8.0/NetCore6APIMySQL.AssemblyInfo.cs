@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NetCore6APIMySQL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a4ec40a8177dbf2b94aa600d3bb71fb7716be60")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+792af7bc52ab72ab50cc6c8350279f2eb229730d")]
 [assembly: System.Reflection.AssemblyProductAttribute("NetCore6APIMySQL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NetCore6APIMySQL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
